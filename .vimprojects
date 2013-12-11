@@ -5,6 +5,9 @@ L::TP=~/sandbox/github/ology/Lingua-TokenParse CD=. {
  t=t {
   1.t
  }
+ eg=eg {
+  word_parse
+ }
  Changes
  dist.ini
  README.md
