@@ -1,0 +1,11 @@
+L::TP=~/sandbox/github/ology/Lingua-TokenParse CD=. {
+ lib=lib/Lingua {
+  TokenParse.pm
+ }
+ t=t {
+  1.t
+ }
+ Changes
+ dist.ini
+ README.md
+}
