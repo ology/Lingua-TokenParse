@@ -1,6 +1,8 @@
 Revision history for Perl extension Lingua::TokenParse.
 
 {{$NEXT}}
+
+0.1602 2022-10-22 00:33:51
     - Reverse Changes file history time line.
     - Update documentation.
     - Avoid implicit imports.
