@@ -414,7 +414,7 @@ methods to parse a given word into familiar combinations based
 on a lexicon of known word parts.  This lexicon is a simple
 I<fragment =E<gt> definition> list.
 
-Words like "automobile" and "deoyribonucleic" are composed of
+Words like "automobile" and "deoxyribonucleic" are composed of
 different roots, prefixes, suffixes, etc.  With a lexicon of known
 fragments, a word can be partitioned into a list of its (possibly
 overlapping) known and unknown fragment combinations.
