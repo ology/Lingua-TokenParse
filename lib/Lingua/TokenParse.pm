@@ -1,10 +1,14 @@
 package Lingua::TokenParse;
-$VERSION = '0.1601';
+
+# ABSTRACT: DEPRECATED in favor of Lingua::Word::Parser
+
+$VERSION = '0.1602';
+
 use strict;
 use warnings;
-use Carp;
-use Storable;
-use Math::BaseCalc;
+use Carp qw(croak);
+use Storable qw(retrieve store);
+use Math::BaseCalc ();
 
 sub new {
     my $proto = shift;
@@ -385,10 +389,6 @@ sub lexicon_cache {
 
 __END__
 
-=head1 NAME
-
-Lingua::TokenParse - Parse a word into scored, fragment combinations
-
 =head1 SYNOPSIS
 
   use Lingua::TokenParse;
@@ -406,6 +406,8 @@ Lingua::TokenParse - Parse a word into scored, fragment combinations
   print Data::Dumper($p->knowns);
 
 =head1 DESCRIPTION
+
+This module has been DEPRECATED in favor of L<Lingua::Word::Parser>.
 
 This class represents a Lingua::TokenParse object and contains
 methods to parse a given word into familiar combinations based
@@ -618,7 +620,6 @@ L<Math::BaseCalc>
 =head1 THANK YOU
 
 Thank you to Luc St-Louis for helping me increase the speed while
-eliminating the exponential memory footprint.  I wish I knew your
-email address so I could tell you.  B<lucs++>
+eliminating the exponential memory footprint. lucs++
 
 =cut

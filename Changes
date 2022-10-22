@@ -1,8 +1,9 @@
 Revision history for Perl extension Lingua::TokenParse.
 
 {{$NEXT}}
-    - Reversed Changes file history time line.
-    - 
+    - Reverse Changes file history time line.
+    - Update documentation.
+    - Avoid implicit imports.
 
 ~
 0.01  Thu Apr  3 20:03:39 2003
