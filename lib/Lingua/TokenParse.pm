@@ -292,11 +292,11 @@ sub build_knowns {
 # Reduce the number of known combinations by concatinating adjacent
 # unknowns (and then removing any duplicates produced).
 
-sub learn {
-    my ($self, %args) = @_;
+#sub learn {
+#    my ($self, %args) = @_;
     # Get the list of (partially) unknown stem combinations.
     # Loop through each looking in %args or prompting for a definition.
-}
+#}
 
 # Update the given string with its actual lexicon value and increment
 # the seen flag.
@@ -590,6 +590,10 @@ An optional, user defined array reference of regular expressions to
 apply when constructing the list of parts and combinations.  This
 acts as a negative pruning device, meaning that if a match is
 successful, the entry is excluded from the list.
+
+=head2 verbose
+
+Boolean
 
 =head1 EXAMPLES
 
